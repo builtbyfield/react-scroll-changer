@@ -26,17 +26,7 @@ const Demo = () => (
     />
     <ScrollChanger
       attached={false}
-      children={
-        <div
-          style={{
-            width: "100%",
-            height: "200vh",
-            backgroundColor: "gray"
-          }}
-        >
-          <h1>not attached divs scroll</h1>
-        </div>
-      }
+      children={<ViewThree />}
       property="opacity"
       start={1}
       end={0}
