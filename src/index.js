@@ -8,7 +8,6 @@ import "./styles.css";
 function ScrollChanger({
   attached,
   children,
-  property,
   start,
   end,
   startOffset,
@@ -25,6 +24,18 @@ function ScrollChanger({
   const calculateAmount = (start, end, percentage) => {
     let amount =
       start - (start - end) * (percentage * (1 + endOffset) - startOffset);
+    let max = start;
+    let min = end;
+    if (min > max) {
+      min = start;
+      max = end;
+    }
+    if (amount > max) {
+      amount = max;
+    }
+    if (amount < min) {
+      amount = min;
+    }
     return amount;
   };
 

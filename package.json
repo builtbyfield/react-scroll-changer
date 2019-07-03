@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-changer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Scroll Changer",
   "main": "lib/index.js",
   "module": "es/index.js",
