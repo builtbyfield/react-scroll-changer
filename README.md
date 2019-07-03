@@ -19,9 +19,8 @@ React Scroll Changer attempts to create an easy component to wrap components and
 app.jsx
 
 ```js
-import React, {Component} from 'react';
-import Sticky from 'react-sticky-el';
-
+import React, { Component } from 'react';
+import ScrollChanger from 'react-scroll-changer';
 
 const View = ({ scrollAmount }) => (
   <div
@@ -46,6 +45,7 @@ class App extends Component ({
     );
   },
 });
+
 ```
 
 The ScrollChanger component wraps a seperate view and passes down the scrollAmount function, which is transitions based on the start and end amounts stipulated.
