@@ -43,7 +43,7 @@ function ScrollChanger({
     <div
       ref={ref}
       className="scroll-changer__wrapper"
-      style={{ height: length * 100 + "vmin", ...wrapperStyle }}
+      style={{ height: length * 100 + "vh", ...wrapperStyle }}
     >
       <Sticky
         boundaryElement=".scroll-changer__wrapper"
