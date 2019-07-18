@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-changer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Scroll Changer",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -20,6 +20,7 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "intersection-observer": "^0.7.0",
     "react-scroll-percentage": "^4.0.7",
     "react-sticky-el": "^1.0.20"
   },

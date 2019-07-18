@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Sticky from "react-sticky-el";
 import PropTypes from "prop-types";
+import "intersection-observer";
 import { useScrollPercentage } from "react-scroll-percentage";
 
 import "./styles.css";
